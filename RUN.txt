@@ -1,0 +1,16 @@
+vyper contracts/DIDRegistry.vy > DIDRegistry.bin
+vyper -f abi contracts/DIDRegistry.vy > DIDRegistry.abi
+vyper -f bytecode contracts/BusinessCardNFT.vy > BusinessCardNFT.bin
+vyper -f abi contracts/BusinessCardNFT.vy > BusinessCardNFT.abi
+
+
+
+
+Deploying DIDRegistry contract...
+DIDRegistry deployed at: 0x712516e61C8B383dF4A63CFe83d7701Bce54B03e
+Deploying BusinessCardNFT contract...
+BusinessCardNFT deployed at: 0xbCF26943C0197d2eE0E5D05c716Be60cc2761508
+
+
+
+
