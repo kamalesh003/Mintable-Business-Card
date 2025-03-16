@@ -48,6 +48,8 @@ Open a terminal and run:
 ```bash
 anvil
 ```
+
+#### 2. Compile Contracts:
 Before deployment, compile your Vyper contracts to generate the bytecode (`.bin`) and ABI (`.abi`) files.
 ```bash
 vyper DIDRegistry.vy > DIDRegistry.bin
@@ -59,6 +61,8 @@ vyper -f abi BusinessCardNFT.vy > BusinessCardNFT.abi
 vyper Escrow.vy > Escrow.bin
 vyper -f abi Escrow.vy > Escrow.abi
 ```
+#### 3. Deploy and Mint NFT
+
 In your terminal, navigate to the directory containing deploy-script.js, installed dependencies(eg; ethers..) and run:
 ```bash
 node deploy-script.js
