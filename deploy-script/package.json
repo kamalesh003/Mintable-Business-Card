@@ -11,8 +11,6 @@
   "type": "commonjs",
   "description": "",
   "dependencies": {
-    "@ceramicnetwork/http-client": "^3.2.0",
-    "arweave": "^1.15.5",
     "ethers": "^5.8.0"
   }
 }
