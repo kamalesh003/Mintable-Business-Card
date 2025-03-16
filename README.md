@@ -8,7 +8,7 @@ This repository contains three Vyper smart contracts:
 
 1. **BusinessCardNFT.vy**  
    - **Purpose:** Mint NFTs representing business cards.  
-   - **Details:** Each NFT holds metadata including name, email, phone, company, position, and an Arweave URL with extended data.
+   - **Details:** Each NFT holds metadata including name, email, phone, company, position, and an  URL with extended data.
    - **Key Functions:**
      - `mintNFT(...)`: Mints a new BusinessCard NFT.
      - `getCard(tokenId)`: Retrieves the stored business card details.
