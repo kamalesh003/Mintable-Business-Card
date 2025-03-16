@@ -64,5 +64,18 @@ In your terminal, navigate to the directory containing deploy-script.js, install
 node deploy-script.js
 ```
 
+```bash
+C:\Users\Dell\Downloads\zkp\deploy-script>node deploy-escrow.js
+Deploying DIDRegistry contract...
+DIDRegistry deployed at: 0x0Cf17D5DcDA9cF25889cEc9ae5610B0FB9725F65
+Deploying BusinessCardNFT contract...
+BusinessCardNFT deployed at: 0xcEC91d876E8f003110D43381359b1bAd124e7F2b
+Deploying Escrow contract...
+Escrow deployed at: 0x5370F78c6af2Da9cF6642382A3a75F9D5aEc9cc1
+Registering DID...
+DID registered.
+Minting BusinessCard NFT...
+BusinessCard NFT minted.
+```
 
 
