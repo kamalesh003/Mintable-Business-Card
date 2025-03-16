@@ -47,3 +47,22 @@ Anvil is a fast local Ethereum testnet provided by Foundry. Follow these steps t
 Open a terminal and run:
 ```bash
 anvil
+```
+Before deployment, compile your Vyper contracts to generate the bytecode (`.bin`) and ABI (`.abi`) files.
+```bash
+vyper DIDRegistry.vy > DIDRegistry.bin
+vyper -f abi DIDRegistry.vy > DIDRegistry.abi
+
+vyper BusinessCardNFT.vy > BusinessCardNFT.bin
+vyper -f abi BusinessCardNFT.vy > BusinessCardNFT.abi
+
+vyper Escrow.vy > Escrow.bin
+vyper -f abi Escrow.vy > Escrow.abi
+```
+In your terminal, navigate to the directory containing deploy-script.js, installed dependencies(eg; ethers..) and run:
+```bash
+node deploy-script.js
+```
+
+
+
